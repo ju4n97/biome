@@ -44,8 +44,7 @@ pnpm dlx jsr add -D @jm/biome
     ```jsonc
     {
         "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-        "extends": "@jm/biome",
-        // ...
+        "extends": ["@jm/biome"]        
     }
 
 3. Override any [default configuration](https://github.com/ju4n97/biome/blob/master/biome.json) to suit your needs. Refer to the [Biome documentation](https://biomejs.dev/guides/getting-started) for more information.
