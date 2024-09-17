@@ -1,5 +1,11 @@
 # @jm/biome
 
+## 0.0.3
+
+### Patch Changes
+
+- 47c2a08: Fix README guide
+
 ## 0.0.2
 
 ### Patch Changes
