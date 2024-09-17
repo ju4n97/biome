@@ -1,6 +1,8 @@
 {
-	"name": "@jm/biome",
-	"version": "0.0.0",
-	"description": "Rehusable configuration for Biome",
-	"exports": "./biome.json"
+  "name": "@jm/biome",
+  "version": "0.0.1",
+  "description": "Rehusable configuration for Biome",
+  "exports": {
+    ".": "./biome.json"
+  }
 }
