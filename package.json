@@ -1,19 +1,19 @@
 {
-	"name": "@jm/biome",
-	"version": "0.0.0",
-	"description": "Reusable configuration for Biome",
-	"exports": {
-		".": "./biome.json"
-	},
-	"scripts": {
-		"lint": "biome lint --write .",
-		"format": "biome format --write .",
-		"ci:version": "changeset version && bun run scripts/sync-jsr.ts && bun run format && git add -A",
-		"ci:release": "changeset tag"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.9.1",
-		"@changesets/cli": "^2.27.8",
-		"@types/bun": "^1.1.9"
-	}
+  "name": "@jm/biome",
+  "version": "0.0.1",
+  "description": "Reusable configuration for Biome",
+  "exports": {
+    ".": "./biome.json"
+  },
+  "scripts": {
+    "lint": "biome lint --write .",
+    "format": "biome format --write .",
+    "ci:version": "changeset version && bun run scripts/sync-jsr.ts && bun run format && git add -A",
+    "ci:release": "changeset tag"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.1",
+    "@changesets/cli": "^2.27.8",
+    "@types/bun": "^1.1.9"
+  }
 }
