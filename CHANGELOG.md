@@ -1,5 +1,11 @@
 # @jm/biome
 
+## 0.0.4
+
+### Patch Changes
+
+- c0d3412: Add quote style to config
+
 ## 0.0.3
 
 ### Patch Changes
