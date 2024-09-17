@@ -54,7 +54,7 @@ pnpm dlx jsr add @jm/biome
         // ...
     }
 
-3. Override any [default configuration](https://github.com/ju4n97/biome/blob/master/biome.jsonc) to suit your needs. Refer to the [Biome documentation](https://biomejs.dev/guides/getting-started) for more information.
+3. Override any [default configuration](https://github.com/ju4n97/biome/blob/master/biome.json) to suit your needs. Refer to the [Biome documentation](https://biomejs.dev/guides/getting-started) for more information.
 
 ## IDE Support
 
