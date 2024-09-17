@@ -1,50 +1,51 @@
 {
-  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "vcs": {
-    "enabled": true,
-    "useIgnoreFile": true,
-    "clientKind": "git"
-  },
-  "organizeImports": {
-    "enabled": true
-  },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "all": true,
-      "style": {
-        "noDefaultExport": "off"
-      },
-      "performance": {
-        "noBarrelFile": "off",
-        "noReExportAll": "off"
-      },
-      "nursery": {
-        "useImportRestrictions": "off"
-      },
-      "correctness": {
-        "noNodejsModules": "off",
-        "noUndeclaredDependencies": "off"
-      },
-      "suspicious": {
-        "noConsole": "off"
-      }
-    }
-  },
-  "formatter": {
-    "enabled": true,
-    "useEditorconfig": true,
-    "attributePosition": "multiline"
-  },
-  "javascript": {
-    "formatter": {
-      "enabled": true,
-      "semicolons": "always",
-      "trailingCommas": "all",
-      "quoteProperties": "asNeeded",
-      "arrowParentheses": "always",
-      "bracketSpacing": true,
-      "bracketSameLine": false
-    }
-  }
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"vcs": {
+		"enabled": true,
+		"useIgnoreFile": true,
+		"clientKind": "git"
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"all": true,
+			"style": {
+				"noDefaultExport": "off"
+			},
+			"performance": {
+				"noBarrelFile": "off",
+				"noReExportAll": "off"
+			},
+			"nursery": {
+				"useImportRestrictions": "off"
+			},
+			"correctness": {
+				"noNodejsModules": "off",
+				"noUndeclaredDependencies": "off"
+			},
+			"suspicious": {
+				"noConsole": "off"
+			}
+		}
+	},
+	"formatter": {
+		"enabled": true,
+		"useEditorconfig": true,
+		"attributePosition": "multiline"
+	},
+	"javascript": {
+		"formatter": {
+			"enabled": true,
+			"quoteStyle": "single",
+			"semicolons": "always",
+			"trailingCommas": "all",
+			"quoteProperties": "asNeeded",
+			"arrowParentheses": "always",
+			"bracketSpacing": true,
+			"bracketSameLine": false
+		}
+	}
 }
