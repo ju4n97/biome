@@ -7,34 +7,28 @@ Reusable configuration for [Biome](https://github.com/biomejs/biome).
 
 ## Installation
 
-With Deno
-
-```sh
-deno add @jm/biome
-```
-
 With Bun
 
 ```sh
-bunx jsr add @jm/biome
+bunx jsr add -D @jm/biome
 ```
 
 With npm
 
 ```sh
-npx jsr add @jm/biome
+npx jsr add -D @jm/biome
 ```
 
 With Yarn
 
 ```sh
-yarn dlx jsr add @jm/biome
+yarn dlx jsr add -D @jm/biome
 ```
 
 With pnpm
 
 ```sh
-pnpm dlx jsr add @jm/biome
+pnpm dlx jsr add -D @jm/biome
 ```
 
 ## Usage
